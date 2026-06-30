@@ -8,3 +8,15 @@ string height = Console.ReadLine();
 Console.WriteLine($"Ваше имя {name} \nВаш возраст {age}\nВаш рост {height} ");
 
 
+Console.WriteLine("Введите число А");
+int a = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите число B");
+int b = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"До обмена значений А равно {a}, В равно {b}");
+
+int temp = a;
+a = b; b = temp;
+
+Console.WriteLine($"После обменя значений А равно {a}, В равно {b}");
