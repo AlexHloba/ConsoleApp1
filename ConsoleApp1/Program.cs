@@ -2,8 +2,12 @@
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public static class Program
     {
-        public static void Main(string[] args) => Hw4 Print4()
+        public static object Main(string[] args) => Hw4.Print4;
+
+
+
+
     }
 }
