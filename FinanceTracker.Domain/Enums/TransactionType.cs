@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using FinanceTracker.Domain.Enums;
 
 namespace FinanceTracker.Domain.Enums
 {
-    internal class TransactionType
-    {
-    }
+    public enum TransactionType { Income,Expense}
+    
+    
 }

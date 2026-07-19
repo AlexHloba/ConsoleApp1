@@ -1,8 +1,8 @@
 <Solution>
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
-  <Project Path="FinanceTracker.Aplication/FinanceTracker.Aplication.csproj" Id="ef175322-d833-4261-809e-39e826cac0ee" />
+  <Project Path="FinanceTracker.Aplication/FinanceTracker.Application.csproj" Id="ef175322-d833-4261-809e-39e826cac0ee" />
   <Project Path="FinanceTracker.CLI/FinanceTracker.CLI.csproj" Id="77a84fa6-88fa-4f31-b067-2578442e3edb" />
   <Project Path="FinanceTracker.Domain/FinanceTracker.Domain.csproj" Id="873dbbaa-a790-4f68-b52b-7bdf74b86428" />
-  <Project Path="FinanceTrcker.Infrastructure/FinanceTrcker.Infrastructure.csproj" Id="ab357c8d-64c9-47f5-a95b-537e6732bc06" />
+  <Project Path="FinanceTrcker.Infrastructure/FinanceTracker.Infrastructure.csproj" Id="ab357c8d-64c9-47f5-a95b-537e6732bc06" />
   <Project Path="PracticeBase/PracticeBase.csproj" Id="3dee4573-cb5b-40d6-9750-9115717f4cf9" />
 </Solution>
