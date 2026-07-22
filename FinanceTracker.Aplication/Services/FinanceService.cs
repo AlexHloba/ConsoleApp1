@@ -1,7 +1,8 @@
-﻿using FinanceTracker.Domain.Entities;
+﻿
+
+using FinanceTracker.Domain.Entities;
 using FinanceTracker.Domain.Enums;
 using FinanceTracker.Infrastructure.Repositories;
-
 
 namespace FinanceTracker.Aplication.Services
 {

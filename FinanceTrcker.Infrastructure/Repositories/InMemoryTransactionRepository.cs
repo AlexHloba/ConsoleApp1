@@ -1,4 +1,6 @@
-﻿using FinanceTracker.Domain.Entities;
+﻿
+
+using FinanceTracker.Domain.Entities;
 using FinanceTracker.Domain.Enums;
 
 namespace FinanceTracker.Infrastructure.Repositories
@@ -9,9 +11,9 @@ namespace FinanceTracker.Infrastructure.Repositories
         {
             new Transaction
             {
-                amount = 4000,
+                Amount = 4000,
                 Type = TransactionType.Income,
-                CategoryAttribute = "Зарплата",
+                Category = "Зарплата",
                 Description = "Аванс",
             },
 
