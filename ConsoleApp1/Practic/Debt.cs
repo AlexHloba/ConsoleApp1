@@ -42,7 +42,7 @@ namespace ConsoleApp1.Practic
             mortgage.PrintBalance();
         }
 
-        public void PrintBalance()
+        private void PrintBalance()
         {
             throw new NotImplementedException();
         }
