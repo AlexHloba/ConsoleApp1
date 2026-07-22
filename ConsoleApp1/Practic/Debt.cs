@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ConsoleApp1.Practic
+﻿namespace ConsoleApp1.Practic
 {
     public class Debt
     {
@@ -26,7 +22,7 @@ namespace ConsoleApp1.Practic
             balance *= interestRate;
         }
 
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
             Debt mortgage = new Debt(120000.0, 1.01);
             mortgage.PrintBalance();        
