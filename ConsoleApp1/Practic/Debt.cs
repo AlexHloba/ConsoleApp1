@@ -22,21 +22,21 @@
             balance *= interestRate;
         }
 
-        public static void Main(String[] args)
-        {
-            Debt mortgage = new Debt(120000.0, 1.01);
-            mortgage.PrintBalance();        
-            mortgage.WaitOneYear();
-            mortgage.PrintBalance();       
+       /// public static void Main(String[] args)
+        //{
+        //    Debt mortgage = new Debt(120000.0, 1.01);
+        //    mortgage.PrintBalance();        
+        //    mortgage.WaitOneYear();
+        //    mortgage.PrintBalance();       
                     
-            int years = 0;
-            while (years < 20)
-            {
-                mortgage.WaitOneYear();
-                years = years + 1;
-            }
-            mortgage.PrintBalance();
-        }
+        //    int years = 0;
+        //    while (years < 20)
+        //    {
+        //        mortgage.WaitOneYear();
+        //        years = years + 1;
+        //    }
+        //    mortgage.PrintBalance();
+        //}
 
         private void PrintBalance()
         {

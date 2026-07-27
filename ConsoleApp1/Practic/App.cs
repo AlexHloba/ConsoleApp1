@@ -1,8 +1,8 @@
 ﻿namespace ConsoleApp1.Practic
 {
-    class Program
+    public class App
     {
-        static void Main()
+         public void Run()
         {
             Car myCar = new SportsCar(0, 01);
             Console.WriteLine("Введите количество бензина для заправки");

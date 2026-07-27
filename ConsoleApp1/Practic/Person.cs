@@ -1,6 +1,6 @@
 ﻿public class StudentProfessorTest
 {
-    public static void Main(string[] args)
+    public static void Run(string[] args)
     {
 
         Person person = new Person();
