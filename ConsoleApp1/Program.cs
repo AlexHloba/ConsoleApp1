@@ -1,10 +1,13 @@
-﻿Console.WriteLine("****Карточка****");
-Console.WriteLine("Введите Ваше Имя: ");
-string name = Console.ReadLine();
-Console.WriteLine("Введите ваш возраст: ");
-string age = Console.ReadLine();
-Console.WriteLine("Введите ваш рост: ");
-string height = Console.ReadLine();
-Console.WriteLine($"Ваше имя {name} \nВаш возраст {age}\nВаш рост {height} ");
+﻿using PracticeBase;
+
+namespace ConsoleApp1
+{
+    public static class Program
+    {
+        public static object Main(string[] args) => Hw4.Print4;
 
 
+
+
+    }
+}
