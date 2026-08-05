@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PracticeBase\PracticeBase.csproj" />
+    <ProjectReference Include="..\FinanceTracker.Aplication\FinanceTracker.Aplication.csproj" />
   </ItemGroup>
 
 </Project>
