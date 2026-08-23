@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Страница продуктов";
+}
+
+<div class="text-center">
+    @{
+        string[] people = { " Tom", "Sam", "Bob" };
+    }
+    <ul>    
+        @for (var i = 0; i < people.Length; i++)
+        {
+            <li> @people[i]</li>
+        }
+    </ul>
+</div>
