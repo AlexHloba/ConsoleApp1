@@ -23,7 +23,16 @@ namespace FinanceTracker.Infrastructure.Repositories
                 Type = TransactionType.Expense,
                 Category = "Еда",
                 Description = "Продукты"
+            },
+
+            new Transaction
+            {
+                Amount = 150,
+                Type = TransactionType.Expense,
+                Category = "Расходы",
+                Description = "Коммунальные платежи"
             }
+
         };
         public void Add(Transaction transaction)
         {
